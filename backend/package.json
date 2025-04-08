@@ -1,9 +1,9 @@
 {
-  "name": "email-assistant-listener",
+  "name": "email-assistant-db_synchronizer",
   "version": "1.0.0",
   "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+    "startLisetner": "node listener.js",
+    "startSynchronizer": "node synchronizer.js"
   },
   "keywords": [],
   "author": "",
